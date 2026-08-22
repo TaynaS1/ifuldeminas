@@ -1,0 +1,14 @@
+C:\Users\tata1\aula2\BlibiotecaAula\bin\Debug\net10.0\BlibiotecaAula.exe
+C:\Users\tata1\aula2\BlibiotecaAula\bin\Debug\net10.0\BlibiotecaAula.deps.json
+C:\Users\tata1\aula2\BlibiotecaAula\bin\Debug\net10.0\BlibiotecaAula.runtimeconfig.json
+C:\Users\tata1\aula2\BlibiotecaAula\bin\Debug\net10.0\BlibiotecaAula.dll
+C:\Users\tata1\aula2\BlibiotecaAula\bin\Debug\net10.0\BlibiotecaAula.pdb
+C:\Users\tata1\aula2\BlibiotecaAula\obj\Debug\net10.0\BlibiotecaAula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tata1\aula2\BlibiotecaAula\obj\Debug\net10.0\BlibiotecaAula.AssemblyInfoInputs.cache
+C:\Users\tata1\aula2\BlibiotecaAula\obj\Debug\net10.0\BlibiotecaAula.AssemblyInfo.cs
+C:\Users\tata1\aula2\BlibiotecaAula\obj\Debug\net10.0\BlibiotecaAula.csproj.CoreCompileInputs.cache
+C:\Users\tata1\aula2\BlibiotecaAula\obj\Debug\net10.0\BlibiotecaAula.dll
+C:\Users\tata1\aula2\BlibiotecaAula\obj\Debug\net10.0\refint\BlibiotecaAula.dll
+C:\Users\tata1\aula2\BlibiotecaAula\obj\Debug\net10.0\BlibiotecaAula.pdb
+C:\Users\tata1\aula2\BlibiotecaAula\obj\Debug\net10.0\BlibiotecaAula.genruntimeconfig.cache
+C:\Users\tata1\aula2\BlibiotecaAula\obj\Debug\net10.0\ref\BlibiotecaAula.dll

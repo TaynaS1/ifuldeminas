@@ -1,0 +1,14 @@
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\obj\Debug\net10.0\VetoresEAD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\obj\Debug\net10.0\VetoresEAD.AssemblyInfoInputs.cache
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\obj\Debug\net10.0\VetoresEAD.AssemblyInfo.cs
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\obj\Debug\net10.0\VetoresEAD.csproj.CoreCompileInputs.cache
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\bin\Debug\net10.0\VetoresEAD.exe
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\bin\Debug\net10.0\VetoresEAD.deps.json
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\bin\Debug\net10.0\VetoresEAD.runtimeconfig.json
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\bin\Debug\net10.0\VetoresEAD.dll
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\bin\Debug\net10.0\VetoresEAD.pdb
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\obj\Debug\net10.0\VetoresEAD.dll
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\obj\Debug\net10.0\refint\VetoresEAD.dll
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\obj\Debug\net10.0\VetoresEAD.pdb
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\obj\Debug\net10.0\VetoresEAD.genruntimeconfig.cache
+C:\Users\tata1\OneDrive\Imagens\arrays\AulaEad1\obj\Debug\net10.0\ref\VetoresEAD.dll
