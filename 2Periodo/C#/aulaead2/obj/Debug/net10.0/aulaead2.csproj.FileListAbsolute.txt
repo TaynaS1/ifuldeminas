@@ -1,0 +1,14 @@
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\bin\Debug\net10.0\aulaead2.exe
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\bin\Debug\net10.0\aulaead2.deps.json
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\bin\Debug\net10.0\aulaead2.runtimeconfig.json
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\bin\Debug\net10.0\aulaead2.dll
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\bin\Debug\net10.0\aulaead2.pdb
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\obj\Debug\net10.0\aulaead2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\obj\Debug\net10.0\aulaead2.AssemblyInfoInputs.cache
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\obj\Debug\net10.0\aulaead2.AssemblyInfo.cs
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\obj\Debug\net10.0\aulaead2.csproj.CoreCompileInputs.cache
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\obj\Debug\net10.0\aulaead2.dll
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\obj\Debug\net10.0\refint\aulaead2.dll
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\obj\Debug\net10.0\aulaead2.pdb
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\obj\Debug\net10.0\aulaead2.genruntimeconfig.cache
+C:\Users\tata1\OneDrive\Documentos\2Periodo\C#\AulaEad2\aulaead2\obj\Debug\net10.0\ref\aulaead2.dll
