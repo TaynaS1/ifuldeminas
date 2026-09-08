@@ -1,0 +1,14 @@
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\bin\Debug\net10.0\AulaEad5.exe
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\bin\Debug\net10.0\AulaEad5.deps.json
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\bin\Debug\net10.0\AulaEad5.runtimeconfig.json
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\bin\Debug\net10.0\AulaEad5.dll
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\bin\Debug\net10.0\AulaEad5.pdb
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\obj\Debug\net10.0\AulaEad5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\obj\Debug\net10.0\AulaEad5.AssemblyInfoInputs.cache
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\obj\Debug\net10.0\AulaEad5.AssemblyInfo.cs
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\obj\Debug\net10.0\AulaEad5.csproj.CoreCompileInputs.cache
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\obj\Debug\net10.0\AulaEad5.dll
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\obj\Debug\net10.0\refint\AulaEad5.dll
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\obj\Debug\net10.0\AulaEad5.pdb
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\obj\Debug\net10.0\AulaEad5.genruntimeconfig.cache
+C:\Users\Tay\Documents\C#\AulaEad5\AulaEad5\obj\Debug\net10.0\ref\AulaEad5.dll
