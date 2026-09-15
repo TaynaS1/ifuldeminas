@@ -1,0 +1,14 @@
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\obj\Debug\net10.0\AulaEad6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\obj\Debug\net10.0\AulaEad6.AssemblyInfoInputs.cache
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\obj\Debug\net10.0\AulaEad6.AssemblyInfo.cs
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\obj\Debug\net10.0\AulaEad6.csproj.CoreCompileInputs.cache
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\bin\Debug\net10.0\AulaEad6.exe
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\bin\Debug\net10.0\AulaEad6.deps.json
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\bin\Debug\net10.0\AulaEad6.runtimeconfig.json
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\bin\Debug\net10.0\AulaEad6.dll
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\bin\Debug\net10.0\AulaEad6.pdb
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\obj\Debug\net10.0\AulaEad6.dll
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\obj\Debug\net10.0\refint\AulaEad6.dll
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\obj\Debug\net10.0\AulaEad6.pdb
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\obj\Debug\net10.0\AulaEad6.genruntimeconfig.cache
+C:\Users\Tay\Documents\C#\AulaEad6\AulaEad6\obj\Debug\net10.0\ref\AulaEad6.dll
