@@ -1,2 +1,2 @@
-# ifuldeminas
-Atividades e projetos feitos em aulas
+# IFSULDEMINAS
+- Atividades e projetos feito nas materias da faculdade
