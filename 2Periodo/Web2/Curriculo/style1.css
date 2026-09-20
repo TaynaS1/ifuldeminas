@@ -1,0 +1,36 @@
+/* ---------- Variáveis ---------- */
+:root {
+  --roxo-900: #2a1a4a;/*roxoescuro*/
+  --roxo-700: #4b2c8a;/*roxomedio*/
+  --roxo-500: #7c4dcc;/*roxoclaro*/
+  --roxo-300: #b79cf0;/*lilas*/
+  --lilas-100: #efe9fb;/*lilas claro*/
+  --branco: #ffffff;/*branco*/
+  --linha: rgb(75 44 138 / 18%);/*roxoescuro*/
+  --raio: 0.5rem;
+  --largura: 68rem;
+}
+
+
+/* ---------- Telas maiores ---------- */
+@media (min-width: 48em) {
+  .hero {
+    grid-template-columns: 1.3fr 0.7fr;
+  }
+
+  .grade {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ---------- Preferências ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .botao,
+  .menu a {
+    transition: none;
+  }
+}
