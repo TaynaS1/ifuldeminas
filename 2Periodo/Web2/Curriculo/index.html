@@ -16,6 +16,16 @@
 <a href="#projetos">Projetos</a>
 <a href="#contato">Contato</a>
 </nav>
+<button id="navToggle" class="menu-toggle" aria-expanded="false" aria-controls="navContainer" aria-label="Abrir menu">
+☰
+</button>
+<nav id="navContainer" class="menu" aria-label="Principal">
+<a href="#sobre">Sobre</a>
+<a href="#formacao">Formação</a>
+<a href="#competencias">Competências</a>
+<a href="#projetos">Projetos</a>
+<a href="#contato">Contato</a>
+</nav>
 </header>
 <main>
 <section class="secao hero" id="inicio">
@@ -23,7 +33,7 @@
 <h1>Tayná Santos</h1>
 <div class="acoes">
 <a class="botao" href="#contato">Fale comigo</a>
-<a class="botao botao-contorno" href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+<a class="botao botao-contorno" href="https://github.com/TaynaS1" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
 </div>
 </div>
 <img class="hero-inicio" src="https://github.com/TaynaS1.png" alt="Foto de perfil">
@@ -95,5 +105,22 @@
 </form>
 </section>
 </main>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+const botao = document.getElementById("navToggle");
+const nav = document.getElementById("navContainer");
+     if (!botao || !nav) return;
+     botao.addEventListener("click", function () {
+     const aberto = nav.classList.toggle("aberto");
+     botao.setAttribute("aria-expanded", aberto ? "true" : "false");
+});
+ nav.querySelectorAll("a").forEach(function (link) {
+link.addEventListener("click", function () {
+nav.classList.remove("aberto");
+botao.setAttribute("aria-expanded", "false");
+});
+});
+});
+</script>
 </body>
 </html>

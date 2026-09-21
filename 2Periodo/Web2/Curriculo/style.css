@@ -306,3 +306,23 @@ html{
     transition:none;
   }
 }
+.menu-toggle {
+  display: none;
+  background: none;
+  border: 0;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .menu-toggle { display: block; }
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+  }
+  .menu.aberto { display: flex; }
+}
