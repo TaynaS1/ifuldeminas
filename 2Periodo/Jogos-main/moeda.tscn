@@ -1,0 +1,101 @@
+[gd_scene format=3 uid="uid://e4iol13r5p10"]
+
+[ext_resource type="Texture2D" uid="uid://dv0lrirehqvvi" path="res://assets/Mini FX, Items & UI/Common Pick-ups/Heart_Spin (16 x 16).png" id="1_7xn1b"]
+[ext_resource type="Script" uid="uid://0da8sy86ms1e" path="res://moeda.gd" id="1_bce4n"]
+[ext_resource type="Texture2D" uid="uid://ek86uncx16xa" path="res://assets/Mini FX, Items & UI/Effects/Bright_Sparkle (16 x 16).png" id="2_jvmwt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jvmwt"]
+atlas = ExtResource("1_7xn1b")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bce4n"]
+atlas = ExtResource("1_7xn1b")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kpn3i"]
+atlas = ExtResource("1_7xn1b")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yr5fv"]
+atlas = ExtResource("1_7xn1b")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4x05f"]
+atlas = ExtResource("2_jvmwt")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1kyoo"]
+atlas = ExtResource("2_jvmwt")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s81j4"]
+atlas = ExtResource("2_jvmwt")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n85yn"]
+atlas = ExtResource("2_jvmwt")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cat2i"]
+atlas = ExtResource("2_jvmwt")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1c7ig"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jvmwt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bce4n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kpn3i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yr5fv")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4x05f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1kyoo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s81j4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n85yn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cat2i")
+}],
+"loop": 0,
+"name": &"pegar",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3v46v"]
+radius = 7.0
+height = 32.0
+
+[node name="moeda" type="Area2D" unique_id=815340660]
+script = ExtResource("1_bce4n")
+
+[node name="animacao" type="AnimatedSprite2D" parent="." unique_id=832989018]
+position = Vector2(43, 99.00001)
+scale = Vector2(2.875, 2.9375)
+sprite_frames = SubResource("SpriteFrames_1c7ig")
+frame_progress = 0.8816932
+
+[node name="colisao" type="CollisionShape2D" parent="." unique_id=1205670595]
+position = Vector2(41, 108)
+shape = SubResource("CapsuleShape2D_3v46v")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="animation_finished" from="animacao" to="." method="_on_animacao_animation_finished"]

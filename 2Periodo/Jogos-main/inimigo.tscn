@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://ddaln2j18iogx"]
+
+[ext_resource type="Script" uid="uid://cnxxqbgmx1loq" path="res://inimigo.gd" id="1_enrbn"]
+[ext_resource type="Texture2D" uid="uid://dq83lk7ec466m" path="res://assets/Sprite Pack 2/8 - Comrade Cheese Puff/Tank_Movement (32 x 32).png" id="2_l0fh3"]
+[ext_resource type="Texture2D" uid="uid://ctwscplx40h2j" path="res://assets/Sprite Pack 2/8 - Comrade Cheese Puff/Hurt (16 x 16).png" id="3_o83ti"]
+[ext_resource type="Texture2D" uid="uid://b40mcqkwgkjl4" path="res://assets/Sprite Pack 2/8 - Comrade Cheese Puff/Missile (16 x 8).png" id="4_5cs1f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ekwcj"]
+atlas = ExtResource("2_l0fh3")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eewpo"]
+atlas = ExtResource("2_l0fh3")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1su0k"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_5cs1f")
+}],
+"loop": 1,
+"name": &"ataque ",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ekwcj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eewpo")
+}],
+"loop": 1,
+"name": &"caminhar",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_o83ti")
+}],
+"loop": 1,
+"name": &"machucar",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bhug5"]
+radius = 14.0
+height = 32.0
+
+[node name="inimigo" type="CharacterBody2D" unique_id=1494442604]
+script = ExtResource("1_enrbn")
+
+[node name="animacao" type="AnimatedSprite2D" parent="." unique_id=68421910]
+position = Vector2(161, 55)
+scale = Vector2(1.109375, 1.078125)
+sprite_frames = SubResource("SpriteFrames_1su0k")
+animation = &"caminhar"
+frame_progress = 0.61532587
+metadata/_edit_group_ = true
+
+[node name="colisao" type="CollisionShape2D" parent="." unique_id=1180196469]
+position = Vector2(160, 58)
+shape = SubResource("CapsuleShape2D_bhug5")
+metadata/_edit_group_ = true
+
+[node name="batevolta" type="RayCast2D" parent="." unique_id=1316147040]
+position = Vector2(159, 58)
+target_position = Vector2(-20, -2)
